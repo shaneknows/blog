@@ -29,6 +29,10 @@ function Index(props) {
           border-bottom-color: currentColor;
         }
 
+        pre {
+          overflow-x:scroll;
+        }
+
         code {
           background-color: #EEE;
           line-height: 1;
