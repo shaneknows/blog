@@ -28,8 +28,8 @@ function Index(props) {
         a:hover, a:focus {
           border-bottom-color: currentColor;
         }
-
-        pre, .content {
+        
+        pre, {
           overflow-x:scroll;
         }
 
