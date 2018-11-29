@@ -1,44 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\post.js"],{
-
-/***/ "./ sync recursive ^\\.\\/content.*\\.json$":
-/*!************************************!*\
-  !*** . sync ^\.\/content.*\.json$ ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./content/index.json": "./content/index.json",
-	"./content/posts/2014-6-3-Hello-Jekyll.json": "./content/posts/2014-6-3-Hello-Jekyll.json",
-	"./content/posts/2015-4-25-MatchUpTackr.json": "./content/posts/2015-4-25-MatchUpTackr.json",
-	"./content/posts/2017-5-8-ReactUnityGithubPages.json": "./content/posts/2017-5-8-ReactUnityGithubPages.json",
-	"./content/posts/2018-11-18MoveToNextjs.json": "./content/posts/2018-11-18MoveToNextjs.json",
-	"./content/posts/2018-11-28-StandingDesk.json": "./content/posts/2018-11-28-StandingDesk.json",
-	"./content/summary.json": "./content/summary.json"
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return id;
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = "./ sync recursive ^\\.\\/content.*\\.json$";
-
-/***/ }),
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
 
 /***/ "./content/index.json":
 /*!****************************!*\
@@ -48,61 +8,6 @@ webpackContext.id = "./ sync recursive ^\\.\\/content.*\\.json$";
 /***/ (function(module) {
 
 module.exports = {"siteTitle":"shaneknows","description":"Let's talk code.","stylesheets":["https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css"],"topLinks":[{"text":"Blog","href":"https://shaneknows.github.io/blog"},{"text":"Naifu","href":"https://shaneknows.github.io/Naifu"},{"text":"React Demo","href":"https://shaneknows.github.io/ReactDemo"},{"text":"Github","href":"https://github.com/shaneknows/"}],"backgroundClass":"bg-dark-gray","copyright":"Shane Knowles","siteId":"","bodyContent":"","bodyHtml":"","dir":"content","base":"index.json","ext":".json","sourceBase":"index.md","sourceExt":".md"};
-
-/***/ }),
-
-/***/ "./content/posts/2014-6-3-Hello-Jekyll.json":
-/*!**************************************************!*\
-  !*** ./content/posts/2014-6-3-Hello-Jekyll.json ***!
-  \**************************************************/
-/*! exports provided: title, date, bodyContent, bodyHtml, preview, dir, base, ext, sourceBase, sourceExt, default */
-/***/ (function(module) {
-
-module.exports = {"title":"Hello, Jekyll","date":"2014-06-03T00:00:00.000Z","bodyContent":"Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running soon.\r\n\r\n### What's to come?\r\n\r\n* Exploration and evaluation of random projects on [GitHub](http://github.com)\r\n* An explanation of some of my own personal projects as I develop. Mostly games and web stuff such as [Naifu](https://github.com/shaneknows/Naifu)\r\n* Some interesting .NET tricks I discover through personal work\r\n* Other tips and tricks for any aspiring developer\r\n* Really anything code-centric","bodyHtml":"<p>Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running soon.</p>\n<h3>What's to come?</h3>\n<ul>\n<li>Exploration and evaluation of random projects on <a href=\"http://github.com\">GitHub</a></li>\n<li>An explanation of some of my own personal projects as I develop. Mostly games and web stuff such as <a href=\"https://github.com/shaneknows/Naifu\">Naifu</a></li>\n<li>Some interesting .NET tricks I discover through personal work</li>\n<li>Other tips and tricks for any aspiring developer</li>\n<li>Really anything code-centric</li>\n</ul>\n","preview":"Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running","dir":"content/posts","base":"2014-6-3-Hello-Jekyll.json","ext":".json","sourceBase":"2014-6-3-Hello-Jekyll.md","sourceExt":".md"};
-
-/***/ }),
-
-/***/ "./content/posts/2015-4-25-MatchUpTackr.json":
-/*!***************************************************!*\
-  !*** ./content/posts/2015-4-25-MatchUpTackr.json ***!
-  \***************************************************/
-/*! exports provided: title, date, bodyContent, bodyHtml, preview, dir, base, ext, sourceBase, sourceExt, default */
-/***/ (function(module) {
-
-module.exports = {"title":"MatchUpTrackr","date":"2015-04-25T00:00:00.000Z","bodyContent":"It has been quite some time. I'm starting a new mobile app to track match up statistics for any type of competitive game.\r\n\r\n### Wait. What? Why?\r\n\r\nFor a good bit of my life I have been playing video games. It basically got me interested in the things that brought me down my career path. \r\nLately I have been playing a lot of Super Smash Brothers for the Wii U semi-competitively. My friend showed me an excel file he was using to track his wins/ losses\r\nagainst certain characters. I have also heard of professional players keeping a log on their phones of specific match up tips for each character they play against or \r\neven match up strategies for specific players. So I thought, why not create a nice pretty app to track all of that? \r\n\r\nHere are my goals:\r\n\r\n* Use Apache Cordova to create an application that will run across most mobile platforms.\r\n* Allow users to break down entries by Game Name -> Player's Character -> Opponent's Character\r\n* At the Opponent's Character level, be able to simply add/subtract wins and losses.\r\n* Ability to select the Opponent's Character level and add notes that can be viewed later.\r\n\r\nRight now I have just created the basic Hello, World application you get when you install all of Apache Cordova extension. \r\n[You can check it out here](https://github.com/shaneknows/MatchUpTrackr)\r\n\r\nHopefully in a week or so I will have the XML reading and writing set up so there will be some actual functionality.\r\n\r\nUntil next time.","bodyHtml":"<p>It has been quite some time. I'm starting a new mobile app to track match up statistics for any type of competitive game.</p>\n<h3>Wait. What? Why?</h3>\n<p>For a good bit of my life I have been playing video games. It basically got me interested in the things that brought me down my career path.\nLately I have been playing a lot of Super Smash Brothers for the Wii U semi-competitively. My friend showed me an excel file he was using to track his wins/ losses\nagainst certain characters. I have also heard of professional players keeping a log on their phones of specific match up tips for each character they play against or\neven match up strategies for specific players. So I thought, why not create a nice pretty app to track all of that?</p>\n<p>Here are my goals:</p>\n<ul>\n<li>Use Apache Cordova to create an application that will run across most mobile platforms.</li>\n<li>Allow users to break down entries by Game Name -&gt; Player's Character -&gt; Opponent's Character</li>\n<li>At the Opponent's Character level, be able to simply add/subtract wins and losses.</li>\n<li>Ability to select the Opponent's Character level and add notes that can be viewed later.</li>\n</ul>\n<p>Right now I have just created the basic Hello, World application you get when you install all of Apache Cordova extension.\n<a href=\"https://github.com/shaneknows/MatchUpTrackr\">You can check it out here</a></p>\n<p>Hopefully in a week or so I will have the XML reading and writing set up so there will be some actual functionality.</p>\n<p>Until next time.</p>\n","preview":"It has been quite some time. I'm starting a new mobile app to track match up statistics for any type of","dir":"content/posts","base":"2015-4-25-MatchUpTackr.json","ext":".json","sourceBase":"2015-4-25-MatchUpTackr.md","sourceExt":".md"};
-
-/***/ }),
-
-/***/ "./content/posts/2017-5-8-ReactUnityGithubPages.json":
-/*!***********************************************************!*\
-  !*** ./content/posts/2017-5-8-ReactUnityGithubPages.json ***!
-  \***********************************************************/
-/*! exports provided: title, date, bodyContent, bodyHtml, preview, dir, base, ext, sourceBase, sourceExt, default */
-/***/ (function(module) {
-
-module.exports = {"title":"React <3 Unity <3 Github Pages","date":"2017-05-08T00:00:00.000Z","bodyContent":"Recently I have been tinkering with React and really digging how easy it is to get up and running using the [Create React App](https://github.com/facebookincubator/create-react-app). What makes things even sweeter is how easily you can deploy to Github Pages to show off all of your work. I was able to even port my Unity game to a React app and deploy it to my site [here](https://shaneknows.github.io/Naifu)!\r\n\r\n### Alright you have my attention... how?\r\n\r\nWell first off download [Node.js](https://nodejs.org/en/download/) and install npm by opening up your command prompt (or use the terminal in Visual Studio Code) and running:\r\n```bash\r\nnpm install @npm -g\r\n```\r\nNow that you have npm installed. You will want to install the create-react-app npm package by running:\r\n```bash\r\nnpm install create-react-app -g\r\n```\r\nNavigate to the folder you wish to create your app and run:\r\n```bash\r\ncreate-react-app <name of project>\r\n```\r\nThis should take a little bit of time but by the time it finishes you will have a working react app you can toy around with. Make sure you switch to the working directory you just created and you can run the app\r\n```bash\r\ncd <your project name>\r\nnpm start\r\n```\r\n\r\n### Cool now how can I show this off?\r\n\r\nAssuming you have a [Github account](https://github.com/) it's quite easy. First create a repository for your current React application on Github. Now back in your project lets install github pages so we can generate and deploy the app as a static site for github pages.\r\n```bash\r\nnpm install --save-dev gh-pages\r\n```\r\nNow in your project's project.json we need to add a deploy option under the `scripts` section:\r\n```javascript\r\n\"deploy\":\"npm run build&&gh-pages -d build\"\r\n```\r\nThis will build our project and publish it to a `gh-pages` branch under your project.\r\n\r\nNow we are almost ready to deploy. First you will want to set your `homepage` in your project.json file. It should be updated and named `https://<username>.github.io/<projectname>`\r\n\r\nNow run \r\n```bash\r\nnpm run deploy\r\n``` \r\nto build and publish to the `gh-pages` branch of our repository. If there isn't a branch, it will be created. Now let's setup our project to enable GitHub Pages. Under the repository settings on Github, find the GitHub Pages section and set the `Source` to use the `gh-pages` branch via the dropdown list.\r\n\r\nNow again run\r\n```bash\r\nnpm run deploy\r\n```\r\nand you should be able to navigate to your homepage URL and find your working app!\r\n\r\n### Alright so now what about Unity?\r\n\r\nAlright so if you don't have a working Unity game feel free to fork mine [here](https://github.com/shaneknows/NaifuGame). Install the latest version of [Unity3d](https://unity3d.com/get-unity/download) and open the project. Select `File`->`Build and Run`. We want to build the project for WebGL so select that option and provide a Folder name. Once the process has complete you should see your game running in a web browser. If everything appears to be working fine, copy the files from the created folder and paste them in the `public` folder of your React application. This should override the default `index.html` file. Open up the `index.html` file and add `%PUBLIC_PATH%/` in front of the src tags so our file references will work locally and while deployed. Your file should look something like:\r\n```html\r\n<!DOCTYPE html>\r\n<html lang=\"en-us\">\r\n  <head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n    <title>Unity WebGL Player | {game name}</title>\r\n    <link rel=\"shortcut icon\" href=\"%PUBLIC_URL%/TemplateData/favicon.ico\">\r\n    <link rel=\"stylesheet\" href=\"%PUBLIC_URL%/TemplateData/style.css\">\r\n    <script src=\"%PUBLIC_URL%/TemplateData/UnityProgress.js\"></script>  \r\n    <script src=\"%PUBLIC_URL%/Build/UnityLoader.js\"></script>\r\n    <script>\r\n      var gameInstance = UnityLoader.instantiate(\"gameContainer\", \"%PUBLIC_URL%/Build/<game name>.json\", {onProgress: UnityProgress});\r\n    </script>\r\n  </head>\r\n  <body>\r\n    <div class=\"webgl-content\">\r\n      <div id=\"gameContainer\" style=\"width: 665px; height: 400px\"></div>\r\n      <div class=\"footer\">\r\n        <div class=\"webgl-logo\"></div>\r\n        <div class=\"fullscreen\" onclick=\"gameInstance.SetFullscreen(1)\"></div>\r\n        <div class=\"title\">{game name}</div>\r\n      </div>\r\n    </div>\r\n  </body>\r\n</html>\r\n```\r\n\r\nYou will also want to clear out the JSX (The HTML-like syntax found in the `render` function) rendered in the `App.js` file. Just return an empty div instead or you will get errors when running. You could also just completely comment out the `index.js` file if you don't intend on adding any react code. Now test your app by running `npm start`.\r\n\r\nIf everything seems to be working, run `npm run deploy` again and you should see your game running on your Github Pages site!\r\n\r\nHappy coding.","bodyHtml":"<p>Recently I have been tinkering with React and really digging how easy it is to get up and running using the <a href=\"https://github.com/facebookincubator/create-react-app\">Create React App</a>. What makes things even sweeter is how easily you can deploy to Github Pages to show off all of your work. I was able to even port my Unity game to a React app and deploy it to my site <a href=\"https://shaneknows.github.io/Naifu\">here</a>!</p>\n<h3>Alright you have my attention... how?</h3>\n<p>Well first off download <a href=\"https://nodejs.org/en/download/\">Node.js</a> and install npm by opening up your command prompt (or use the terminal in Visual Studio Code) and running:</p>\n<pre><code class=\"hljs\">npm install @npm -g</code></pre><p>Now that you have npm installed. You will want to install the create-react-app npm package by running:</p>\n<pre><code class=\"hljs\">npm install create-react-app -g</code></pre><p>Navigate to the folder you wish to create your app and run:</p>\n<pre><code class=\"hljs\">create-react-app &lt;name of project&gt;</code></pre><p>This should take a little bit of time but by the time it finishes you will have a working react app you can toy around with. Make sure you switch to the working directory you just created and you can run the app</p>\n<pre><code class=\"hljs\"><span class=\"hljs-built_in\">cd</span> &lt;your project name&gt;\nnpm start</code></pre><h3>Cool now how can I show this off?</h3>\n<p>Assuming you have a <a href=\"https://github.com/\">Github account</a> it's quite easy. First create a repository for your current React application on Github. Now back in your project lets install github pages so we can generate and deploy the app as a static site for github pages.</p>\n<pre><code class=\"hljs\">npm install --save-dev gh-pages</code></pre><p>Now in your project's project.json we need to add a deploy option under the <code>scripts</code> section:</p>\n<pre><code class=\"hljs\"><span class=\"hljs-string\">\"deploy\"</span>:<span class=\"hljs-string\">\"npm run build&amp;&amp;gh-pages -d build\"</span></code></pre><p>This will build our project and publish it to a <code>gh-pages</code> branch under your project.</p>\n<p>Now we are almost ready to deploy. First you will want to set your <code>homepage</code> in your project.json file. It should be updated and named <code>https://&lt;username&gt;.github.io/&lt;projectname&gt;</code></p>\n<p>Now run</p>\n<pre><code class=\"hljs\">npm run deploy</code></pre><p>to build and publish to the <code>gh-pages</code> branch of our repository. If there isn't a branch, it will be created. Now let's setup our project to enable GitHub Pages. Under the repository settings on Github, find the GitHub Pages section and set the <code>Source</code> to use the <code>gh-pages</code> branch via the dropdown list.</p>\n<p>Now again run</p>\n<pre><code class=\"hljs\">npm run deploy</code></pre><p>and you should be able to navigate to your homepage URL and find your working app!</p>\n<h3>Alright so now what about Unity?</h3>\n<p>Alright so if you don't have a working Unity game feel free to fork mine <a href=\"https://github.com/shaneknows/NaifuGame\">here</a>. Install the latest version of <a href=\"https://unity3d.com/get-unity/download\">Unity3d</a> and open the project. Select <code>File</code>-&gt;<code>Build and Run</code>. We want to build the project for WebGL so select that option and provide a Folder name. Once the process has complete you should see your game running in a web browser. If everything appears to be working fine, copy the files from the created folder and paste them in the <code>public</code> folder of your React application. This should override the default <code>index.html</code> file. Open up the <code>index.html</code> file and add <code>%PUBLIC_PATH%/</code> in front of the src tags so our file references will work locally and while deployed. Your file should look something like:</p>\n<pre><code class=\"hljs\"><span class=\"hljs-meta\">&lt;!DOCTYPE html&gt;</span>\n<span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">html</span> <span class=\"hljs-attr\">lang</span>=<span class=\"hljs-string\">\"en-us\"</span>&gt;</span>\n  <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">head</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">meta</span> <span class=\"hljs-attr\">charset</span>=<span class=\"hljs-string\">\"utf-8\"</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">meta</span> <span class=\"hljs-attr\">http-equiv</span>=<span class=\"hljs-string\">\"Content-Type\"</span> <span class=\"hljs-attr\">content</span>=<span class=\"hljs-string\">\"text/html; charset=utf-8\"</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">title</span>&gt;</span>Unity WebGL Player | {game name}<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">title</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">link</span> <span class=\"hljs-attr\">rel</span>=<span class=\"hljs-string\">\"shortcut icon\"</span> <span class=\"hljs-attr\">href</span>=<span class=\"hljs-string\">\"%PUBLIC_URL%/TemplateData/favicon.ico\"</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">link</span> <span class=\"hljs-attr\">rel</span>=<span class=\"hljs-string\">\"stylesheet\"</span> <span class=\"hljs-attr\">href</span>=<span class=\"hljs-string\">\"%PUBLIC_URL%/TemplateData/style.css\"</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span> <span class=\"hljs-attr\">src</span>=<span class=\"hljs-string\">\"%PUBLIC_URL%/TemplateData/UnityProgress.js\"</span>&gt;</span><span class=\"undefined\"></span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">script</span>&gt;</span>  \n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span> <span class=\"hljs-attr\">src</span>=<span class=\"hljs-string\">\"%PUBLIC_URL%/Build/UnityLoader.js\"</span>&gt;</span><span class=\"undefined\"></span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">script</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">script</span>&gt;</span><span class=\"actionscript\">\n      <span class=\"hljs-keyword\">var</span> gameInstance = UnityLoader.instantiate(<span class=\"hljs-string\">\"gameContainer\"</span>, <span class=\"hljs-string\">\"%PUBLIC_URL%/Build/&lt;game name&gt;.json\"</span>, {onProgress: UnityProgress});\n    </span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">script</span>&gt;</span>\n  <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">head</span>&gt;</span>\n  <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">body</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span> <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"webgl-content\"</span>&gt;</span>\n      <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span> <span class=\"hljs-attr\">id</span>=<span class=\"hljs-string\">\"gameContainer\"</span> <span class=\"hljs-attr\">style</span>=<span class=\"hljs-string\">\"width: 665px; height: 400px\"</span>&gt;</span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span>\n      <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span> <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"footer\"</span>&gt;</span>\n        <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span> <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"webgl-logo\"</span>&gt;</span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span>\n        <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span> <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"fullscreen\"</span> <span class=\"hljs-attr\">onclick</span>=<span class=\"hljs-string\">\"gameInstance.SetFullscreen(1)\"</span>&gt;</span><span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span>\n        <span class=\"hljs-tag\">&lt;<span class=\"hljs-name\">div</span> <span class=\"hljs-attr\">class</span>=<span class=\"hljs-string\">\"title\"</span>&gt;</span>{game name}<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span>\n      <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span>\n    <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">div</span>&gt;</span>\n  <span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">body</span>&gt;</span>\n<span class=\"hljs-tag\">&lt;/<span class=\"hljs-name\">html</span>&gt;</span></code></pre><p>You will also want to clear out the JSX (The HTML-like syntax found in the <code>render</code> function) rendered in the <code>App.js</code> file. Just return an empty div instead or you will get errors when running. You could also just completely comment out the <code>index.js</code> file if you don't intend on adding any react code. Now test your app by running <code>npm start</code>.</p>\n<p>If everything seems to be working, run <code>npm run deploy</code> again and you should see your game running on your Github Pages site!</p>\n<p>Happy coding.</p>\n","preview":"Recently I have been tinkering with React and really digging how easy it is to get up and running using the","dir":"content/posts","base":"2017-5-8-ReactUnityGithubPages.json","ext":".json","sourceBase":"2017-5-8-ReactUnityGithubPages.md","sourceExt":".md"};
-
-/***/ }),
-
-/***/ "./content/posts/2018-11-18MoveToNextjs.json":
-/*!***************************************************!*\
-  !*** ./content/posts/2018-11-18MoveToNextjs.json ***!
-  \***************************************************/
-/*! exports provided: title, date, bodyContent, bodyHtml, preview, dir, base, ext, sourceBase, sourceExt, default */
-/***/ (function(module) {
-
-module.exports = {"title":"Migrating to Next.js","date":"2018-11-18T00:00:00.000Z","bodyContent":"Hey! I'm moving the blog to use Next.js. It builds out a static site and allows me to build a nice little react app so demos should be easier to set up. I also put in support for markdown so I can continue doing the blog deal thanks to [tscanlin](https://github.com/tscanlin/next-blog). Who knows, maybe I will get around to posting more than once a year.","bodyHtml":"<p>Hey! I'm moving the blog to use Next.js. It builds out a static site and allows me to build a nice little react app so demos should be easier to set up. I also put in support for markdown so I can continue doing the blog deal thanks to <a href=\"https://github.com/tscanlin/next-blog\">tscanlin</a>. Who knows, maybe I will get around to posting more than once a year.</p>\n","preview":"Hey! I'm moving the blog to use Next.js. It builds out a static site and allows me to build a nice little","dir":"content/posts","base":"2018-11-18MoveToNextjs.json","ext":".json","sourceBase":"2018-11-18MoveToNextjs.md","sourceExt":".md"};
-
-/***/ }),
-
-/***/ "./content/posts/2018-11-28-StandingDesk.json":
-/*!****************************************************!*\
-  !*** ./content/posts/2018-11-28-StandingDesk.json ***!
-  \****************************************************/
-/*! exports provided: title, date, bodyContent, bodyHtml, preview, dir, base, ext, sourceBase, sourceExt, default */
-/***/ (function(module) {
-
-module.exports = {"title":"Vivo Standing Desk - An Easy DIY Standing Desk","date":"2018-11-28T00:00:00.000Z","bodyContent":"While I don't buy into the huge hype behind using a standing desk, I 100% love the standing desk I built using [VIVO Manual Standing Desk V101M](https://amzn.to/2E3o55C).\r\n\r\nThe best selling feature of this desk IMO isn't the adjustable height, but the adjustable width. I was in the market for a new desk, but was also planning on moving soon so I didn't want to purchase a desk only to have it not fit comfortably in my next house. After buying the largest board that would fit the desk, sanding, staining, and mounting I had a beautiful desk and peace of mind knowing I could easily saw down later if it ended up taking up too much space in my next office. Fortunately I haven't had to make any adjustments yet, but I feel confident knowing that the choice to make a modification to the desk won't mean buying an entirely new one (maybe just a small can of stain).\r\n\r\n![Desk](https://github.com/shaneknows/blog/tree/dev/src/images/desk.jpg \"Desk\")\r\n\r\nWhile I was at it, I also build a matching shelf to hand in my office.\r\n\r\n![Shelf][https://github.com/shaneknows/blog/tree/dev/src/images/ \"Shelf\"]\r\n\r\nCons\r\n- Ended up not mattering, but the threads when assembling the desk are fairly easy to strip so be careful assembling the horizontal bar.\r\n![Stripped Thread](https://github.com/shaneknows/blog/tree/dev/src/images/stripped.jpg \"Stripped Thread\")\r\n- Finding a large enough board can be a pain (but that's also part of the fun)\r\n- Doesn't look flashy, but that's up to the creator to customize away\r\n\r\nPros\r\n- Easily adjustable height. There were some complaints I heard from people about the manual hand crank taking too long and to that I just shake my head. If you can't turn a crank 10-20 times to stand up you probably also think riding a bike down your driveway is a chore.\r\n- Durable. I also read complaints about durability. I've moved twice since building this and it's still solid.\r\n- Price. Under 200 for the frame and you should be able to find a board for around $50 or less\r\n- Customizable. Unlike cheap Ikea furniture, if you use real wood you don't have to worry about screwing in PC mounts, shelving, or whatever weird customizations you may want to make.\r\n\r\n[Also if you need some cable management, VIVO makes this sleeve that worked perfectly for me.](https://amzn.to/2P8z4LU)\r\n\r\ntldr; I recommend this desk for anyone really as long as you have the need for a desk at least 40 inches wide.","bodyHtml":"<p>While I don't buy into the huge hype behind using a standing desk, I 100% love the standing desk I built using <a href=\"https://amzn.to/2E3o55C\">VIVO Manual Standing Desk V101M</a>.</p>\n<p>The best selling feature of this desk IMO isn't the adjustable height, but the adjustable width. I was in the market for a new desk, but was also planning on moving soon so I didn't want to purchase a desk only to have it not fit comfortably in my next house. After buying the largest board that would fit the desk, sanding, staining, and mounting I had a beautiful desk and peace of mind knowing I could easily saw down later if it ended up taking up too much space in my next office. Fortunately I haven't had to make any adjustments yet, but I feel confident knowing that the choice to make a modification to the desk won't mean buying an entirely new one (maybe just a small can of stain).</p>\n<p><img src=\"https://github.com/shaneknows/blog/tree/dev/src/images/desk.jpg\" alt=\"Desk\" title=\"Desk\"></p>\n<p>While I was at it, I also build a matching shelf to hand in my office.</p>\n<p>![Shelf][https://github.com/shaneknows/blog/tree/dev/src/images/ &quot;Shelf&quot;]</p>\n<p>Cons</p>\n<ul>\n<li>Ended up not mattering, but the threads when assembling the desk are fairly easy to strip so be careful assembling the horizontal bar.\n<img src=\"https://github.com/shaneknows/blog/tree/dev/src/images/stripped.jpg\" alt=\"Stripped Thread\" title=\"Stripped Thread\"></li>\n<li>Finding a large enough board can be a pain (but that's also part of the fun)</li>\n<li>Doesn't look flashy, but that's up to the creator to customize away</li>\n</ul>\n<p>Pros</p>\n<ul>\n<li>Easily adjustable height. There were some complaints I heard from people about the manual hand crank taking too long and to that I just shake my head. If you can't turn a crank 10-20 times to stand up you probably also think riding a bike down your driveway is a chore.</li>\n<li>Durable. I also read complaints about durability. I've moved twice since building this and it's still solid.</li>\n<li>Price. Under 200 for the frame and you should be able to find a board for around $50 or less</li>\n<li>Customizable. Unlike cheap Ikea furniture, if you use real wood you don't have to worry about screwing in PC mounts, shelving, or whatever weird customizations you may want to make.</li>\n</ul>\n<p><a href=\"https://amzn.to/2P8z4LU\">Also if you need some cable management, VIVO makes this sleeve that worked perfectly for me.</a></p>\n<p>tldr; I recommend this desk for anyone really as long as you have the need for a desk at least 40 inches wide.</p>\n","preview":"While I don't buy into the huge hype behind using a standing desk, I 100% love the standing desk I built using","dir":"content/posts","base":"2018-11-28-StandingDesk.json","ext":".json","sourceBase":"2018-11-28-StandingDesk.md","sourceExt":".md"};
 
 /***/ }),
 
@@ -7633,18 +7538,6 @@ module.exports = (__webpack_require__(/*! dll-reference dll_10dfc023f48f5d8c395e
 
 /***/ }),
 
-/***/ "./node_modules/next/router.js":
-/*!*************************************!*\
-  !*** ./node_modules/next/router.js ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/lib/router */ "./node_modules/next/dist/lib/router/index.js")
-
-
-/***/ }),
-
 /***/ "./node_modules/node-libs-browser/node_modules/punycode/punycode.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/node-libs-browser/node_modules/punycode/punycode.js ***!
@@ -8536,201 +8429,6 @@ module.exports = function shimAssign() {
 	);
 	return polyfill;
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/process/browser.js":
-/*!*****************************************!*\
-  !*** ./node_modules/process/browser.js ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// shim for using process in browser
-var process = module.exports = {};
-
-// cached from whatever global is present so that test runners that stub it
-// don't break things.  But we need to wrap it in a try catch in case it is
-// wrapped in strict mode code which doesn't define any globals.  It's inside a
-// function because try/catches deoptimize in certain engines.
-
-var cachedSetTimeout;
-var cachedClearTimeout;
-
-function defaultSetTimout() {
-    throw new Error('setTimeout has not been defined');
-}
-function defaultClearTimeout () {
-    throw new Error('clearTimeout has not been defined');
-}
-(function () {
-    try {
-        if (typeof setTimeout === 'function') {
-            cachedSetTimeout = setTimeout;
-        } else {
-            cachedSetTimeout = defaultSetTimout;
-        }
-    } catch (e) {
-        cachedSetTimeout = defaultSetTimout;
-    }
-    try {
-        if (typeof clearTimeout === 'function') {
-            cachedClearTimeout = clearTimeout;
-        } else {
-            cachedClearTimeout = defaultClearTimeout;
-        }
-    } catch (e) {
-        cachedClearTimeout = defaultClearTimeout;
-    }
-} ())
-function runTimeout(fun) {
-    if (cachedSetTimeout === setTimeout) {
-        //normal enviroments in sane situations
-        return setTimeout(fun, 0);
-    }
-    // if setTimeout wasn't available but was latter defined
-    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
-        cachedSetTimeout = setTimeout;
-        return setTimeout(fun, 0);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedSetTimeout(fun, 0);
-    } catch(e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
-            return cachedSetTimeout.call(null, fun, 0);
-        } catch(e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
-            return cachedSetTimeout.call(this, fun, 0);
-        }
-    }
-
-
-}
-function runClearTimeout(marker) {
-    if (cachedClearTimeout === clearTimeout) {
-        //normal enviroments in sane situations
-        return clearTimeout(marker);
-    }
-    // if clearTimeout wasn't available but was latter defined
-    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
-        cachedClearTimeout = clearTimeout;
-        return clearTimeout(marker);
-    }
-    try {
-        // when when somebody has screwed with setTimeout but no I.E. maddness
-        return cachedClearTimeout(marker);
-    } catch (e){
-        try {
-            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
-            return cachedClearTimeout.call(null, marker);
-        } catch (e){
-            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
-            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
-            return cachedClearTimeout.call(this, marker);
-        }
-    }
-
-
-
-}
-var queue = [];
-var draining = false;
-var currentQueue;
-var queueIndex = -1;
-
-function cleanUpNextTick() {
-    if (!draining || !currentQueue) {
-        return;
-    }
-    draining = false;
-    if (currentQueue.length) {
-        queue = currentQueue.concat(queue);
-    } else {
-        queueIndex = -1;
-    }
-    if (queue.length) {
-        drainQueue();
-    }
-}
-
-function drainQueue() {
-    if (draining) {
-        return;
-    }
-    var timeout = runTimeout(cleanUpNextTick);
-    draining = true;
-
-    var len = queue.length;
-    while(len) {
-        currentQueue = queue;
-        queue = [];
-        while (++queueIndex < len) {
-            if (currentQueue) {
-                currentQueue[queueIndex].run();
-            }
-        }
-        queueIndex = -1;
-        len = queue.length;
-    }
-    currentQueue = null;
-    draining = false;
-    runClearTimeout(timeout);
-}
-
-process.nextTick = function (fun) {
-    var args = new Array(arguments.length - 1);
-    if (arguments.length > 1) {
-        for (var i = 1; i < arguments.length; i++) {
-            args[i - 1] = arguments[i];
-        }
-    }
-    queue.push(new Item(fun, args));
-    if (queue.length === 1 && !draining) {
-        runTimeout(drainQueue);
-    }
-};
-
-// v8 likes predictible objects
-function Item(fun, array) {
-    this.fun = fun;
-    this.array = array;
-}
-Item.prototype.run = function () {
-    this.fun.apply(null, this.array);
-};
-process.title = 'browser';
-process.browser = true;
-process.env = {};
-process.argv = [];
-process.version = ''; // empty string to avoid regexp issues
-process.versions = {};
-
-function noop() {}
-
-process.on = noop;
-process.addListener = noop;
-process.once = noop;
-process.off = noop;
-process.removeListener = noop;
-process.removeAllListeners = noop;
-process.emit = noop;
-process.prependListener = noop;
-process.prependOnceListener = noop;
-
-process.listeners = function (name) { return [] }
-
-process.binding = function (name) {
-    throw new Error('process.binding is not supported');
-};
-
-process.cwd = function () { return '/' };
-process.chdir = function (dir) {
-    throw new Error('process.chdir is not supported');
-};
-process.umask = function() { return 0; };
 
 
 /***/ }),
@@ -9824,709 +9522,6 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ "./node_modules/string-hash/index.js":
-/*!*******************************************!*\
-  !*** ./node_modules/string-hash/index.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-function hash(str) {
-  var hash = 5381,
-      i    = str.length;
-
-  while(i) {
-    hash = (hash * 33) ^ str.charCodeAt(--i);
-  }
-
-  /* JavaScript does bitwise operations (like XOR, above) on 32-bit signed
-   * integers. Since we want the results to be always positive, convert the
-   * signed int to an unsigned by doing an unsigned bitshift. */
-  return hash >>> 0;
-}
-
-module.exports = hash;
-
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/lib/stylesheet.js":
-/*!********************************************************!*\
-  !*** ./node_modules/styled-jsx/dist/lib/stylesheet.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(process) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/*
-Based on Glamor's sheet
-https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92ca2879/src/sheet.js
-*/
-
-var isProd = process.env && "development" === 'production';
-var isString = function isString(o) {
-  return Object.prototype.toString.call(o) === '[object String]';
-};
-
-var StyleSheet = function () {
-  function StyleSheet() {
-    var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-        _ref$name = _ref.name,
-        name = _ref$name === undefined ? 'stylesheet' : _ref$name,
-        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-        optimizeForSpeed = _ref$optimizeForSpeed === undefined ? isProd : _ref$optimizeForSpeed,
-        _ref$isBrowser = _ref.isBrowser,
-        isBrowser = _ref$isBrowser === undefined ? typeof window !== 'undefined' : _ref$isBrowser;
-
-    _classCallCheck(this, StyleSheet);
-
-    invariant(isString(name), '`name` must be a string');
-    this._name = name;
-    this._deletedRulePlaceholder = '#' + name + '-deleted-rule____{}';
-
-    invariant(typeof optimizeForSpeed === 'boolean', '`optimizeForSpeed` must be a boolean');
-    this._optimizeForSpeed = optimizeForSpeed;
-    this._isBrowser = isBrowser;
-
-    this._serverSheet = undefined;
-    this._tags = [];
-    this._injected = false;
-    this._rulesCount = 0;
-
-    var node = this._isBrowser && document.querySelector('meta[property="csp-nonce"]');
-    this._nonce = node ? node.getAttribute('content') : null;
-  }
-
-  _createClass(StyleSheet, [{
-    key: 'setOptimizeForSpeed',
-    value: function setOptimizeForSpeed(bool) {
-      invariant(typeof bool === 'boolean', '`setOptimizeForSpeed` accepts a boolean');
-
-      invariant(this._rulesCount === 0, 'optimizeForSpeed cannot be when rules have already been inserted');
-      this.flush();
-      this._optimizeForSpeed = bool;
-      this.inject();
-    }
-  }, {
-    key: 'isOptimizeForSpeed',
-    value: function isOptimizeForSpeed() {
-      return this._optimizeForSpeed;
-    }
-  }, {
-    key: 'inject',
-    value: function inject() {
-      var _this = this;
-
-      invariant(!this._injected, 'sheet already injected');
-      this._injected = true;
-      if (this._isBrowser && this._optimizeForSpeed) {
-        this._tags[0] = this.makeStyleTag(this._name);
-        this._optimizeForSpeed = 'insertRule' in this.getSheet();
-        if (!this._optimizeForSpeed) {
-          if (!isProd) {
-            console.warn('StyleSheet: optimizeForSpeed mode not supported falling back to standard mode.'); // eslint-disable-line no-console
-          }
-          this.flush();
-          this._injected = true;
-        }
-        return;
-      }
-
-      this._serverSheet = {
-        cssRules: [],
-        insertRule: function insertRule(rule, index) {
-          if (typeof index === 'number') {
-            _this._serverSheet.cssRules[index] = { cssText: rule };
-          } else {
-            _this._serverSheet.cssRules.push({ cssText: rule });
-          }
-          return index;
-        },
-        deleteRule: function deleteRule(index) {
-          _this._serverSheet.cssRules[index] = null;
-        }
-      };
-    }
-  }, {
-    key: 'getSheetForTag',
-    value: function getSheetForTag(tag) {
-      if (tag.sheet) {
-        return tag.sheet;
-      }
-
-      // this weirdness brought to you by firefox
-      for (var i = 0; i < document.styleSheets.length; i++) {
-        if (document.styleSheets[i].ownerNode === tag) {
-          return document.styleSheets[i];
-        }
-      }
-    }
-  }, {
-    key: 'getSheet',
-    value: function getSheet() {
-      return this.getSheetForTag(this._tags[this._tags.length - 1]);
-    }
-  }, {
-    key: 'insertRule',
-    value: function insertRule(rule, index) {
-      invariant(isString(rule), '`insertRule` accepts only strings');
-
-      if (!this._isBrowser) {
-        if (typeof index !== 'number') {
-          index = this._serverSheet.cssRules.length;
-        }
-        this._serverSheet.insertRule(rule, index);
-        return this._rulesCount++;
-      }
-
-      if (this._optimizeForSpeed) {
-        var sheet = this.getSheet();
-        if (typeof index !== 'number') {
-          index = sheet.cssRules.length;
-        }
-        // this weirdness for perf, and chrome's weird bug
-        // https://stackoverflow.com/questions/20007992/chrome-suddenly-stopped-accepting-insertrule
-        try {
-          sheet.insertRule(rule, index);
-        } catch (err) {
-          if (!isProd) {
-            console.warn('StyleSheet: illegal rule: \n\n' + rule + '\n\nSee https://stackoverflow.com/q/20007992 for more info'); // eslint-disable-line no-console
-          }
-          return -1;
-        }
-      } else {
-        var insertionPoint = this._tags[index];
-        this._tags.push(this.makeStyleTag(this._name, rule, insertionPoint));
-      }
-
-      return this._rulesCount++;
-    }
-  }, {
-    key: 'replaceRule',
-    value: function replaceRule(index, rule) {
-      if (this._optimizeForSpeed || !this._isBrowser) {
-        var sheet = this._isBrowser ? this.getSheet() : this._serverSheet;
-        if (!rule.trim()) {
-          rule = this._deletedRulePlaceholder;
-        }
-
-        if (!sheet.cssRules[index]) {
-          // @TBD Should we throw an error?
-          return index;
-        }
-
-        sheet.deleteRule(index);
-
-        try {
-          sheet.insertRule(rule, index);
-        } catch (err) {
-          if (!isProd) {
-            console.warn('StyleSheet: illegal rule: \n\n' + rule + '\n\nSee https://stackoverflow.com/q/20007992 for more info'); // eslint-disable-line no-console
-          }
-          // In order to preserve the indices we insert a deleteRulePlaceholder
-          sheet.insertRule(this._deletedRulePlaceholder, index);
-        }
-      } else {
-        var tag = this._tags[index];
-        invariant(tag, 'old rule at index `' + index + '` not found');
-        tag.textContent = rule;
-      }
-      return index;
-    }
-  }, {
-    key: 'deleteRule',
-    value: function deleteRule(index) {
-      if (!this._isBrowser) {
-        this._serverSheet.deleteRule(index);
-        return;
-      }
-
-      if (this._optimizeForSpeed) {
-        this.replaceRule(index, '');
-      } else {
-        var tag = this._tags[index];
-        invariant(tag, 'rule at index `' + index + '` not found');
-        tag.parentNode.removeChild(tag);
-        this._tags[index] = null;
-      }
-    }
-  }, {
-    key: 'flush',
-    value: function flush() {
-      this._injected = false;
-      this._rulesCount = 0;
-      if (this._isBrowser) {
-        this._tags.forEach(function (tag) {
-          return tag && tag.parentNode.removeChild(tag);
-        });
-        this._tags = [];
-      } else {
-        // simpler on server
-        this._serverSheet.cssRules = [];
-      }
-    }
-  }, {
-    key: 'cssRules',
-    value: function cssRules() {
-      var _this2 = this;
-
-      if (!this._isBrowser) {
-        return this._serverSheet.cssRules;
-      }
-      return this._tags.reduce(function (rules, tag) {
-        if (tag) {
-          rules = rules.concat(_this2.getSheetForTag(tag).cssRules.map(function (rule) {
-            return rule.cssText === _this2._deletedRulePlaceholder ? null : rule;
-          }));
-        } else {
-          rules.push(null);
-        }
-        return rules;
-      }, []);
-    }
-  }, {
-    key: 'makeStyleTag',
-    value: function makeStyleTag(name, cssString, relativeToTag) {
-      if (cssString) {
-        invariant(isString(cssString), 'makeStyleTag acceps only strings as second parameter');
-      }
-      var tag = document.createElement('style');
-      if (this._nonce) tag.setAttribute('nonce', this._nonce);
-      tag.type = 'text/css';
-      tag.setAttribute('data-' + name, '');
-      if (cssString) {
-        tag.appendChild(document.createTextNode(cssString));
-      }
-      var head = document.head || document.getElementsByTagName('head')[0];
-      if (relativeToTag) {
-        head.insertBefore(tag, relativeToTag);
-      } else {
-        head.appendChild(tag);
-      }
-      return tag;
-    }
-  }, {
-    key: 'length',
-    get: function get() {
-      return this._rulesCount;
-    }
-  }]);
-
-  return StyleSheet;
-}();
-
-exports.default = StyleSheet;
-
-
-function invariant(condition, message) {
-  if (!condition) {
-    throw new Error('StyleSheet: ' + message + '.');
-  }
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../process/browser.js */ "./node_modules/process/browser.js")))
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/style.js":
-/*!***********************************************!*\
-  !*** ./node_modules/styled-jsx/dist/style.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-exports.flush = flush;
-
-var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var _stylesheetRegistry = __webpack_require__(/*! ./stylesheet-registry */ "./node_modules/styled-jsx/dist/stylesheet-registry.js");
-
-var _stylesheetRegistry2 = _interopRequireDefault(_stylesheetRegistry);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var styleSheetRegistry = new _stylesheetRegistry2.default();
-
-var JSXStyle = function (_Component) {
-  _inherits(JSXStyle, _Component);
-
-  function JSXStyle(props) {
-    _classCallCheck(this, JSXStyle);
-
-    var _this = _possibleConstructorReturn(this, (JSXStyle.__proto__ || Object.getPrototypeOf(JSXStyle)).call(this, props));
-
-    _this.prevProps = {};
-    return _this;
-  }
-
-  _createClass(JSXStyle, [{
-    key: 'shouldComponentUpdate',
-
-
-    // probably faster than PureComponent (shallowEqual)
-    value: function shouldComponentUpdate(otherProps) {
-      return this.props.styleId !== otherProps.styleId ||
-      // We do this check because `dynamic` is an array of strings or undefined.
-      // These are the computed values for dynamic styles.
-      String(this.props.dynamic) !== String(otherProps.dynamic);
-    }
-  }, {
-    key: 'componentWillUnmount',
-    value: function componentWillUnmount() {
-      styleSheetRegistry.remove(this.props);
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      // This is a workaround to make the side effect async safe in the "render" phase.
-      // See https://github.com/zeit/styled-jsx/pull/484
-      if (this.shouldComponentUpdate(this.prevProps)) {
-        // Updates
-        if (this.prevProps.styleId) {
-          styleSheetRegistry.remove(this.prevProps);
-        }
-        styleSheetRegistry.add(this.props);
-        this.prevProps = this.props;
-      }
-      return null;
-    }
-  }], [{
-    key: 'dynamic',
-    value: function dynamic(info) {
-      return info.map(function (tagInfo) {
-        var baseId = tagInfo[0];
-        var props = tagInfo[1];
-        return styleSheetRegistry.computeId(baseId, props);
-      }).join(' ');
-    }
-  }]);
-
-  return JSXStyle;
-}(_react.Component);
-
-exports.default = JSXStyle;
-function flush() {
-  var cssRules = styleSheetRegistry.cssRules();
-  styleSheetRegistry.flush();
-  return cssRules;
-}
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/dist/stylesheet-registry.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/styled-jsx/dist/stylesheet-registry.js ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _stringHash = __webpack_require__(/*! string-hash */ "./node_modules/string-hash/index.js");
-
-var _stringHash2 = _interopRequireDefault(_stringHash);
-
-var _stylesheet = __webpack_require__(/*! ./lib/stylesheet */ "./node_modules/styled-jsx/dist/lib/stylesheet.js");
-
-var _stylesheet2 = _interopRequireDefault(_stylesheet);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var sanitize = function sanitize(rule) {
-  return rule.replace(/\/style/gi, '\\/style');
-};
-
-var StyleSheetRegistry = function () {
-  function StyleSheetRegistry() {
-    var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-        _ref$styleSheet = _ref.styleSheet,
-        styleSheet = _ref$styleSheet === undefined ? null : _ref$styleSheet,
-        _ref$optimizeForSpeed = _ref.optimizeForSpeed,
-        optimizeForSpeed = _ref$optimizeForSpeed === undefined ? false : _ref$optimizeForSpeed,
-        _ref$isBrowser = _ref.isBrowser,
-        isBrowser = _ref$isBrowser === undefined ? typeof window !== 'undefined' : _ref$isBrowser;
-
-    _classCallCheck(this, StyleSheetRegistry);
-
-    this._sheet = styleSheet || new _stylesheet2.default({
-      name: 'styled-jsx',
-      optimizeForSpeed: optimizeForSpeed
-    });
-
-    this._sheet.inject();
-    if (styleSheet && typeof optimizeForSpeed === 'boolean') {
-      this._sheet.setOptimizeForSpeed(optimizeForSpeed);
-      this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-    }
-
-    this._isBrowser = isBrowser;
-
-    this._fromServer = undefined;
-    this._indices = {};
-    this._instancesCounts = {};
-
-    this.computeId = this.createComputeId();
-    this.computeSelector = this.createComputeSelector();
-  }
-
-  _createClass(StyleSheetRegistry, [{
-    key: 'add',
-    value: function add(props) {
-      var _this = this;
-
-      if (undefined === this._optimizeForSpeed) {
-        this._optimizeForSpeed = Array.isArray(props.css);
-        this._sheet.setOptimizeForSpeed(this._optimizeForSpeed);
-        this._optimizeForSpeed = this._sheet.isOptimizeForSpeed();
-      }
-
-      if (this._isBrowser && !this._fromServer) {
-        this._fromServer = this.selectFromServer();
-        this._instancesCounts = Object.keys(this._fromServer).reduce(function (acc, tagName) {
-          acc[tagName] = 0;
-          return acc;
-        }, {});
-      }
-
-      var _getIdAndRules = this.getIdAndRules(props),
-          styleId = _getIdAndRules.styleId,
-          rules = _getIdAndRules.rules;
-
-      // Deduping: just increase the instances count.
-
-
-      if (styleId in this._instancesCounts) {
-        this._instancesCounts[styleId] += 1;
-        return;
-      }
-
-      var indices = rules.map(function (rule) {
-        return _this._sheet.insertRule(rule);
-      })
-      // Filter out invalid rules
-      .filter(function (index) {
-        return index !== -1;
-      });
-
-      this._indices[styleId] = indices;
-      this._instancesCounts[styleId] = 1;
-    }
-  }, {
-    key: 'remove',
-    value: function remove(props) {
-      var _this2 = this;
-
-      var _getIdAndRules2 = this.getIdAndRules(props),
-          styleId = _getIdAndRules2.styleId;
-
-      invariant(styleId in this._instancesCounts, 'styleId: `' + styleId + '` not found');
-      this._instancesCounts[styleId] -= 1;
-
-      if (this._instancesCounts[styleId] < 1) {
-        var tagFromServer = this._fromServer && this._fromServer[styleId];
-        if (tagFromServer) {
-          tagFromServer.parentNode.removeChild(tagFromServer);
-          delete this._fromServer[styleId];
-        } else {
-          this._indices[styleId].forEach(function (index) {
-            return _this2._sheet.deleteRule(index);
-          });
-          delete this._indices[styleId];
-        }
-        delete this._instancesCounts[styleId];
-      }
-    }
-  }, {
-    key: 'update',
-    value: function update(props, nextProps) {
-      this.add(nextProps);
-      this.remove(props);
-    }
-  }, {
-    key: 'flush',
-    value: function flush() {
-      this._sheet.flush();
-      this._sheet.inject();
-      this._fromServer = undefined;
-      this._indices = {};
-      this._instancesCounts = {};
-
-      this.computeId = this.createComputeId();
-      this.computeSelector = this.createComputeSelector();
-    }
-  }, {
-    key: 'cssRules',
-    value: function cssRules() {
-      var _this3 = this;
-
-      var fromServer = this._fromServer ? Object.keys(this._fromServer).map(function (styleId) {
-        return [styleId, _this3._fromServer[styleId]];
-      }) : [];
-      var cssRules = this._sheet.cssRules();
-
-      return fromServer.concat(Object.keys(this._indices).map(function (styleId) {
-        return [styleId, _this3._indices[styleId].map(function (index) {
-          return cssRules[index].cssText;
-        }).join('\n')];
-      })
-      // filter out empty rules
-      .filter(function (rule) {
-        return Boolean(rule[1]);
-      }));
-    }
-
-    /**
-     * createComputeId
-     *
-     * Creates a function to compute and memoize a jsx id from a basedId and optionally props.
-     */
-
-  }, {
-    key: 'createComputeId',
-    value: function createComputeId() {
-      var cache = {};
-      return function (baseId, props) {
-        if (!props) {
-          return 'jsx-' + baseId;
-        }
-        var propsToString = String(props);
-        var key = baseId + propsToString;
-        // return `jsx-${hashString(`${baseId}-${propsToString}`)}`
-        if (!cache[key]) {
-          cache[key] = 'jsx-' + (0, _stringHash2.default)(baseId + '-' + propsToString);
-        }
-        return cache[key];
-      };
-    }
-
-    /**
-     * createComputeSelector
-     *
-     * Creates a function to compute and memoize dynamic selectors.
-     */
-
-  }, {
-    key: 'createComputeSelector',
-    value: function createComputeSelector() {
-      var selectoPlaceholderRegexp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : /__jsx-style-dynamic-selector/g;
-
-      var cache = {};
-      return function (id, css) {
-        // Sanitize SSR-ed CSS.
-        // Client side code doesn't need to be sanitized since we use
-        // document.createTextNode (dev) and the CSSOM api sheet.insertRule (prod).
-        if (!this._isBrowser) {
-          css = sanitize(css);
-        }
-        var idcss = id + css;
-        if (!cache[idcss]) {
-          cache[idcss] = css.replace(selectoPlaceholderRegexp, id);
-        }
-        return cache[idcss];
-      };
-    }
-  }, {
-    key: 'getIdAndRules',
-    value: function getIdAndRules(props) {
-      var _this4 = this;
-
-      if (props.dynamic) {
-        var styleId = this.computeId(props.styleId, props.dynamic);
-        return {
-          styleId: styleId,
-          rules: Array.isArray(props.css) ? props.css.map(function (rule) {
-            return _this4.computeSelector(styleId, rule);
-          }) : [this.computeSelector(styleId, props.css)]
-        };
-      }
-
-      return {
-        styleId: this.computeId(props.styleId),
-        rules: Array.isArray(props.css) ? props.css : [props.css]
-      };
-    }
-
-    /**
-     * selectFromServer
-     *
-     * Collects style tags from the document with id __jsx-XXX
-     */
-
-  }, {
-    key: 'selectFromServer',
-    value: function selectFromServer() {
-      var elements = Array.prototype.slice.call(document.querySelectorAll('[id^="__jsx-"]'));
-
-      return elements.reduce(function (acc, element) {
-        var id = element.id.slice(2);
-        acc[id] = element;
-        return acc;
-      }, {});
-    }
-  }]);
-
-  return StyleSheetRegistry;
-}();
-
-exports.default = StyleSheetRegistry;
-
-
-function invariant(condition, message) {
-  if (!condition) {
-    throw new Error('StyleSheetRegistry: ' + message + '.');
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/styled-jsx/style.js":
-/*!******************************************!*\
-  !*** ./node_modules/styled-jsx/style.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-jsx/dist/style.js")
-
-
-/***/ }),
-
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -11398,30 +10393,26 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/post.js":
-/*!***********************!*\
-  !*** ./pages/post.js ***!
-  \***********************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _src_components_Page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/Page */ "./src/components/Page.js");
-/* harmony import */ var _src_components_PagePreview__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/components/PagePreview */ "./src/components/PagePreview.js");
-/* harmony import */ var _src_utils_date__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/utils/date */ "./src/utils/date.js");
-/* harmony import */ var _content_index_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../content/index.json */ "./content/index.json");
-var _content_index_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/index.json */ "./content/index.json", 1);
-/* harmony import */ var _content_summary_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../content/summary.json */ "./content/summary.json");
-var _content_summary_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/summary.json */ "./content/summary.json", 1);
-var _jsxFileName = "C:\\Users\\shane\\OneDrive\\Documents\\GitHub\\blog\\pages\\post.js";
-
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _src_components_Page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/components/Page */ "./src/components/Page.js");
+/* harmony import */ var _src_components_PagePreview__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/PagePreview */ "./src/components/PagePreview.js");
+/* harmony import */ var _src_utils_date__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/utils/date */ "./src/utils/date.js");
+/* harmony import */ var _src_utils_content__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/utils/content */ "./src/utils/content.js");
+/* harmony import */ var _content_index_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../content/index.json */ "./content/index.json");
+var _content_index_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/index.json */ "./content/index.json", 1);
+/* harmony import */ var _content_summary_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../content/summary.json */ "./content/summary.json");
+var _content_summary_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/summary.json */ "./content/summary.json", 1);
+var _jsxFileName = "C:\\Users\\shane\\OneDrive\\Documents\\GitHub\\blog\\pages\\index.js";
 
 
 
@@ -11431,71 +10422,60 @@ var _jsxFileName = "C:\\Users\\shane\\OneDrive\\Documents\\GitHub\\blog\\pages\\
 
 
 function Index(props) {
-  var pageJson = {};
-
-  if (props.router.query) {
-    if (props.router.query.fullUrl) {
-      pageJson = __webpack_require__("./ sync recursive ^\\.\\/content.*\\.json$")("./content".concat(props.router.query.fullUrl, ".json"));
-    }
-  }
-
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2575736066",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "2575736066",
-    css: ".content a{color:#0365A5;-webkit-text-decoration:none;text-decoration:none;border-bottom:1px solid #DFDFDF;-webkit-transition:all 300ms ease;transition:all 300ms ease;}a:hover,a:focus{border-bottom-color:currentColor;}pre,{overflow-x:scroll;}code{background-color:#EEE;line-height:1;border-radius:2px;padding:1px;}code:not(.hljs){border:1px solid #DDD;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcc2hhbmVcXE9uZURyaXZlXFxEb2N1bWVudHNcXEdpdEh1YlxcYmxvZ1xccGFnZXNcXHBvc3QuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJ5QixBQUd5QixBQU9tQixBQUloQixBQUlLLEFBTUEsY0FwQkQsSUFXdkIsSUFJZ0IsQUFNaEIsV0FkQSxHQVNtQixrQkFDTCxVQWhCb0IsRUFpQmxDLDhCQWhCNEIsNERBQzVCIiwiZmlsZSI6IkM6XFxVc2Vyc1xcc2hhbmVcXE9uZURyaXZlXFxEb2N1bWVudHNcXEdpdEh1YlxcYmxvZ1xccGFnZXNcXHBvc3QuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcbmltcG9ydCB7IHdpdGhSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcidcclxuaW1wb3J0IFBhZ2UgZnJvbSAnLi4vc3JjL2NvbXBvbmVudHMvUGFnZSdcclxuaW1wb3J0IFBhZ2VQcmV2aWV3IGZyb20gJy4uL3NyYy9jb21wb25lbnRzL1BhZ2VQcmV2aWV3J1xyXG5pbXBvcnQgeyBmb3JtYXREYXRlIH0gZnJvbSAnLi4vc3JjL3V0aWxzL2RhdGUnXHJcblxyXG5pbXBvcnQgQ09ORklHIGZyb20gJy4uL2NvbnRlbnQvaW5kZXguanNvbidcclxuaW1wb3J0IFNVTU1BUllfSlNPTiBmcm9tICcuLi9jb250ZW50L3N1bW1hcnkuanNvbidcclxuXHJcbmZ1bmN0aW9uIEluZGV4KHByb3BzKSB7XHJcbiAgbGV0IHBhZ2VKc29uID0ge31cclxuICBpZiAocHJvcHMucm91dGVyLnF1ZXJ5KSB7XHJcbiAgICBpZiAocHJvcHMucm91dGVyLnF1ZXJ5LmZ1bGxVcmwpIHtcclxuICAgICAgcGFnZUpzb24gPSByZXF1aXJlKGAuLi9jb250ZW50JHtwcm9wcy5yb3V0ZXIucXVlcnkuZnVsbFVybH0uanNvbmApXHJcbiAgICB9XHJcbiAgfVxyXG5cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAuY29udGVudCBhIHtcclxuICAgICAgICAgIGNvbG9yOiAjMDM2NUE1O1xyXG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNERkRGREY7XHJcbiAgICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMzAwbXMgZWFzZTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIGE6aG92ZXIsIGE6Zm9jdXMge1xyXG4gICAgICAgICAgYm9yZGVyLWJvdHRvbS1jb2xvcjogY3VycmVudENvbG9yO1xyXG4gICAgICAgIH1cclxuICAgICAgICBcclxuICAgICAgICBwcmUsIHtcclxuICAgICAgICAgIG92ZXJmbG93LXg6c2Nyb2xsO1xyXG4gICAgICAgIH1cclxuXHJcbiAgICAgICAgY29kZSB7XHJcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRUVFO1xyXG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDE7XHJcbiAgICAgICAgICBib3JkZXItcmFkaXVzOjJweDtcclxuICAgICAgICAgIHBhZGRpbmc6IDFweDtcclxuICAgICAgICB9XHJcbiAgICAgICAgY29kZTpub3QoLmhsanMpIHtcclxuICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNEREQ7XHJcbiAgICAgICAgfVxyXG4gICAgICBgfTwvc3R5bGU+XHJcbiAgICAgIDxQYWdlXHJcbiAgICAgICAgc2l0ZVRpdGxlPXtgJHtDT05GSUcuc2l0ZVRpdGxlfSAtICR7cGFnZUpzb24udGl0bGV9YH1cclxuICAgICAgICBoZXJvVGl0bGU9e0NPTkZJRy5zaXRlVGl0bGV9XHJcbiAgICAgICAgZGVzY3JpcHRpb249e0NPTkZJRy5kZXNjcmlwdGlvbn1cclxuICAgICAgICBzdHlsZXNoZWV0cz17Q09ORklHLnN0eWxlc2hlZXRzfVxyXG4gICAgICAgIHRvcExpbmtzPXtDT05GSUcudG9wTGlua3N9XHJcbiAgICAgICAgYmFja2dyb3VuZENsYXNzPXtDT05GSUcuYmFja2dyb3VuZENsYXNzfVxyXG4gICAgICAgIGJvZHk9e0JvZHkocGFnZUpzb24pfVxyXG4gICAgICAgIGNvcHlyaWdodD17Q09ORklHLmNvcHlyaWdodH1cclxuICAgICAgICBzaXRlSWQ9e0NPTkZJRy5zaXRlSWR9XHJcbiAgICAgIC8+XHJcbiAgICA8L2Rpdj5cclxuICApXHJcbn1cclxuXHJcbmZ1bmN0aW9uIEJvZHkocHJvcHMpIHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250ZW50IGNlbnRlciBtdzkgcGEzIHBhNC1uc1wiPlxyXG4gICAgICA8aDEgY2xhc3NOYW1lPVwibXQwIGxoLXRpdGxlXCI+e3Byb3BzLnRpdGxlfTwvaDE+XHJcbiAgICAgIDxkaXYgZGFuZ2Vyb3VzbHlTZXRJbm5lckhUTUw9e3sgX19odG1sOiBwcm9wcy5ib2R5SHRtbCB9fT48L2Rpdj5cclxuICAgIDwvZGl2PlxyXG4gIClcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgd2l0aFJvdXRlcihJbmRleClcclxuIl19 */\n/*@ sourceURL=C:\\Users\\shane\\OneDrive\\Documents\\GitHub\\blog\\pages\\post.js */",
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_src_components_Page__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    siteTitle: "".concat(_content_index_json__WEBPACK_IMPORTED_MODULE_6__.siteTitle, " - ").concat(pageJson.title),
-    heroTitle: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.siteTitle,
-    description: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.description,
-    stylesheets: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.stylesheets,
-    topLinks: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.topLinks,
-    backgroundClass: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.backgroundClass,
-    body: Body(pageJson),
-    copyright: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.copyright,
-    siteId: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.siteId,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_Page__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    siteTitle: "".concat(_content_index_json__WEBPACK_IMPORTED_MODULE_5__.siteTitle, " - Index"),
+    heroTitle: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.siteTitle,
+    description: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.description,
+    stylesheets: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.stylesheets,
+    topLinks: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.topLinks,
+    backgroundClass: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.backgroundClass,
+    body: Body({
+      summaryJson: _content_summary_json__WEBPACK_IMPORTED_MODULE_6__
+    }),
+    copyright: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.copyright,
+    siteId: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.siteId,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 13
     },
     __self: this
   }));
 }
 
 function Body(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "content center mw9 pa3 pa4-ns",
+  var postList = Object(_src_utils_content__WEBPACK_IMPORTED_MODULE_4__["filterPosts"])(props.summaryJson);
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center mw6 pa3 pa4-ns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 31
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "mt0 lh-title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    dangerouslySetInnerHTML: {
-      __html: props.bodyHtml
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
+  }, postList.map(function (article, i) {
+    var href = Object(_src_utils_content__WEBPACK_IMPORTED_MODULE_4__["makeUrl"])(article);
+    var date = Object(_src_utils_date__WEBPACK_IMPORTED_MODULE_3__["formatDate"])(article.date);
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_src_components_PagePreview__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      title: article.title,
+      preview: article.preview,
+      date: date,
+      href: href,
+      key: i,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    });
   }));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_2__["withRouter"])(Index));
+/* harmony default export */ __webpack_exports__["default"] = (Index);
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -11512,7 +10492,7 @@ function Body(props) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/post")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -12012,6 +10992,36 @@ Tracking.propTypes = {
 
 /***/ }),
 
+/***/ "./src/utils/content.js":
+/*!******************************!*\
+  !*** ./src/utils/content.js ***!
+  \******************************/
+/*! exports provided: makeUrl, filterPosts */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "makeUrl", function() { return makeUrl; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "filterPosts", function() { return filterPosts; });
+function makeUrl(article) {
+  return "".concat(article.dir.split('content').join(''), "/").concat(article.base.split('.json').join(''));
+}
+function filterPosts(summaryJson) {
+  return summaryJson && summaryJson.fileMap && Object.keys(summaryJson.fileMap).filter(function (file) {
+    if (file.indexOf('content/posts') === 0) {
+      return true;
+    }
+  }).map(function (file) {
+    return summaryJson.fileMap[file];
+  }).sort(function (a, b) {
+    var aDate = Date.parse(a.date);
+    var bDate = Date.parse(b.date);
+    return bDate > aDate ? 1 : bDate < aDate ? -1 : 0;
+  });
+}
+
+/***/ }),
+
 /***/ "./src/utils/date.js":
 /*!***************************!*\
   !*** ./src/utils/date.js ***!
@@ -12033,15 +11043,15 @@ function formatDate(dateString) {
 
 /***/ }),
 
-/***/ 3:
-/*!*****************************!*\
-  !*** multi ./pages/post.js ***!
-  \*****************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/post', function() {
-module.exports = __webpack_require__(/*! ./pages/post.js */"./pages/post.js");
+__NEXT_REGISTER_PAGE('/', function() {
+module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
 return { page: module.exports.default }});
 
@@ -12058,5 +11068,5 @@ module.exports = dll_10dfc023f48f5d8c395e;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=post.js.map
+},[[4,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=index.js.map
