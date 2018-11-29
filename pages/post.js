@@ -28,6 +28,10 @@ function Index(props) {
         a:hover, a:focus {
           border-bottom-color: currentColor;
         }
+        
+        pre, {
+          overflow-x:scroll;
+        }
 
         code {
           background-color: #EEE;
