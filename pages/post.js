@@ -29,8 +29,8 @@ function Index(props) {
           border-bottom-color: currentColor;
         }
         
-        pre, {
-          overflow-x:scroll;
+        pre, .content {
+          overflow-x:auto;
         }
 
         code {
