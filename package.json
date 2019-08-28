@@ -13,8 +13,8 @@
   "dependencies": {
     "next": "latest",
     "processmd": "^4.4.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "license": "ISC",
   "devDependencies": {
