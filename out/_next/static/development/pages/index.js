@@ -18,7 +18,7 @@ module.exports = JSON.parse("{\"siteTitle\":\"shaneknows\",\"description\":\"Let
 /*! exports provided: fileMap, sourceFileArray, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"fileMap\":{\"content/posts/2018-11-28-StandingDesk.json\":{\"title\":\"Vivo Standing Desk - An Easy DIY Standing Desk\",\"date\":\"2018-11-28T00:00:00.000Z\",\"preview\":\"While I don't buy into the huge hype behind using a standing desk, I 100% love the standing desk I built using\",\"dir\":\"content/posts\",\"base\":\"2018-11-28-StandingDesk.json\",\"ext\":\".json\",\"sourceBase\":\"2018-11-28-StandingDesk.md\",\"sourceExt\":\".md\"},\"content/posts/2015-4-25-MatchUpTackr.json\":{\"title\":\"MatchUpTrackr\",\"date\":\"2015-04-25T00:00:00.000Z\",\"preview\":\"It has been quite some time. I'm starting a new mobile app to track match up statistics for any type of\",\"dir\":\"content/posts\",\"base\":\"2015-4-25-MatchUpTackr.json\",\"ext\":\".json\",\"sourceBase\":\"2015-4-25-MatchUpTackr.md\",\"sourceExt\":\".md\"},\"content/posts/2017-5-8-ReactUnityGithubPages.json\":{\"title\":\"React <3 Unity <3 Github Pages\",\"date\":\"2017-05-08T00:00:00.000Z\",\"preview\":\"Recently I have been tinkering with React and really digging how easy it is to get up and running using the\",\"dir\":\"content/posts\",\"base\":\"2017-5-8-ReactUnityGithubPages.json\",\"ext\":\".json\",\"sourceBase\":\"2017-5-8-ReactUnityGithubPages.md\",\"sourceExt\":\".md\"},\"content/posts/2014-6-3-Hello-Jekyll.json\":{\"title\":\"Hello, Jekyll\",\"date\":\"2014-06-03T00:00:00.000Z\",\"preview\":\"Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running\",\"dir\":\"content/posts\",\"base\":\"2014-6-3-Hello-Jekyll.json\",\"ext\":\".json\",\"sourceBase\":\"2014-6-3-Hello-Jekyll.md\",\"sourceExt\":\".md\"},\"content/index.json\":{\"siteTitle\":\"shaneknows\",\"description\":\"Let's talk code.\",\"stylesheets\":[\"https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css\"],\"topLinks\":[{\"text\":\"Blog\",\"href\":\"https://shaneknows.github.io/blog\"},{\"text\":\"Naifu\",\"href\":\"https://shaneknows.github.io/Naifu\"},{\"text\":\"React Demo\",\"href\":\"https://shaneknows.github.io/ReactDemo\"},{\"text\":\"Github\",\"href\":\"https://github.com/shaneknows/\"}],\"backgroundClass\":\"bg-dark-gray\",\"copyright\":\"Shane Knowles\",\"siteId\":\"\",\"dir\":\"content\",\"base\":\"index.json\",\"ext\":\".json\",\"sourceBase\":\"index.md\",\"sourceExt\":\".md\"},\"content/posts/2018-11-18MoveToNextjs.json\":{\"title\":\"Migrating to Next.js\",\"date\":\"2018-11-18T00:00:00.000Z\",\"preview\":\"Hey! I'm moving the blog to use Next.js. It builds out a static site and allows me to build a nice little\",\"dir\":\"content/posts\",\"base\":\"2018-11-18MoveToNextjs.json\",\"ext\":\".json\",\"sourceBase\":\"2018-11-18MoveToNextjs.md\",\"sourceExt\":\".md\"},\"content/posts/2020-3-16-Self-Care.json\":{\"title\":\"Some Self Care Tips\",\"date\":\"2020-3-16\",\"preview\":\"I've been meaning to write this post for a while now, but hadn't gotten around to it. With the unfortunate\",\"dir\":\"content/posts\",\"base\":\"2020-3-16-Self-Care.json\",\"ext\":\".json\",\"sourceBase\":\"2020-3-16-Self-Care.md\",\"sourceExt\":\".md\"}},\"sourceFileArray\":[\"content/index.md\",\"content/posts/2014-6-3-Hello-Jekyll.md\",\"content/posts/2015-4-25-MatchUpTackr.md\",\"content/posts/2017-5-8-ReactUnityGithubPages.md\",\"content/posts/2018-11-18MoveToNextjs.md\",\"content/posts/2018-11-28-StandingDesk.md\",\"content/posts/2020-3-16-Self-Care.md\"]}");
+module.exports = JSON.parse("{\"fileMap\":{\"content/posts/2017-5-8-ReactUnityGithubPages.json\":{\"title\":\"React <3 Unity <3 Github Pages\",\"date\":\"2017-05-08T00:00:00.000Z\",\"preview\":\"Recently I have been tinkering with React and really digging how easy it is to get up and running using the\",\"dir\":\"content/posts\",\"base\":\"2017-5-8-ReactUnityGithubPages.json\",\"ext\":\".json\",\"sourceBase\":\"2017-5-8-ReactUnityGithubPages.md\",\"sourceExt\":\".md\"},\"content/index.json\":{\"siteTitle\":\"shaneknows\",\"description\":\"Let's talk code.\",\"stylesheets\":[\"https://unpkg.com/tachyons@4.7.4/css/tachyons.min.css\"],\"topLinks\":[{\"text\":\"Blog\",\"href\":\"https://shaneknows.github.io/blog\"},{\"text\":\"Naifu\",\"href\":\"https://shaneknows.github.io/Naifu\"},{\"text\":\"React Demo\",\"href\":\"https://shaneknows.github.io/ReactDemo\"},{\"text\":\"Github\",\"href\":\"https://github.com/shaneknows/\"}],\"backgroundClass\":\"bg-dark-gray\",\"copyright\":\"Shane Knowles\",\"siteId\":\"\",\"dir\":\"content\",\"base\":\"index.json\",\"ext\":\".json\",\"sourceBase\":\"index.md\",\"sourceExt\":\".md\"},\"content/posts/2014-6-3-Hello-Jekyll.json\":{\"title\":\"Hello, Jekyll\",\"date\":\"2014-06-03T00:00:00.000Z\",\"preview\":\"Hey there! I'm still working out learning all this Jekyll stuff, but I hope to get this blog up and running\",\"dir\":\"content/posts\",\"base\":\"2014-6-3-Hello-Jekyll.json\",\"ext\":\".json\",\"sourceBase\":\"2014-6-3-Hello-Jekyll.md\",\"sourceExt\":\".md\"},\"content/posts/2015-4-25-MatchUpTackr.json\":{\"title\":\"MatchUpTrackr\",\"date\":\"2015-04-25T00:00:00.000Z\",\"preview\":\"It has been quite some time. I'm starting a new mobile app to track match up statistics for any type of\",\"dir\":\"content/posts\",\"base\":\"2015-4-25-MatchUpTackr.json\",\"ext\":\".json\",\"sourceBase\":\"2015-4-25-MatchUpTackr.md\",\"sourceExt\":\".md\"},\"content/posts/2018-11-28-StandingDesk.json\":{\"title\":\"Vivo Standing Desk - An Easy DIY Standing Desk\",\"date\":\"2018-11-28T00:00:00.000Z\",\"preview\":\"While I don't buy into the huge hype behind using a standing desk, I 100% love the standing desk I built using\",\"dir\":\"content/posts\",\"base\":\"2018-11-28-StandingDesk.json\",\"ext\":\".json\",\"sourceBase\":\"2018-11-28-StandingDesk.md\",\"sourceExt\":\".md\"},\"content/posts/2018-11-18MoveToNextjs.json\":{\"title\":\"Migrating to Next.js\",\"date\":\"2018-11-18T00:00:00.000Z\",\"preview\":\"Hey! I'm moving the blog to use Next.js. It builds out a static site and allows me to build a nice little\",\"dir\":\"content/posts\",\"base\":\"2018-11-18MoveToNextjs.json\",\"ext\":\".json\",\"sourceBase\":\"2018-11-18MoveToNextjs.md\",\"sourceExt\":\".md\"},\"content/posts/2020-3-16-Self-Care.json\":{\"title\":\"Some Self Care Tips\",\"date\":\"2020-3-16\",\"preview\":\"I've been meaning to write this post for a while now, but hadn't gotten around to it. With the unfortunate\",\"dir\":\"content/posts\",\"base\":\"2020-3-16-Self-Care.json\",\"ext\":\".json\",\"sourceBase\":\"2020-3-16-Self-Care.md\",\"sourceExt\":\".md\"}},\"sourceFileArray\":[\"content/index.md\",\"content/posts/2014-6-3-Hello-Jekyll.md\",\"content/posts/2015-4-25-MatchUpTackr.md\",\"content/posts/2017-5-8-ReactUnityGithubPages.md\",\"content/posts/2018-11-18MoveToNextjs.md\",\"content/posts/2018-11-28-StandingDesk.md\",\"content/posts/2020-3-16-Self-Care.md\"]}");
 
 /***/ }),
 
@@ -4977,18 +4977,21 @@ try {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _src_components_Page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/components/Page */ "./src/components/Page.js");
-/* harmony import */ var _src_components_PagePreview__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/PagePreview */ "./src/components/PagePreview.js");
-/* harmony import */ var _src_utils_date__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/utils/date */ "./src/utils/date.js");
-/* harmony import */ var _src_utils_content__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/utils/content */ "./src/utils/content.js");
-/* harmony import */ var _content_index_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../content/index.json */ "./content/index.json");
-var _content_index_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/index.json */ "./content/index.json", 1);
-/* harmony import */ var _content_summary_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../content/summary.json */ "./content/summary.json");
-var _content_summary_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/summary.json */ "./content/summary.json", 1);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _src_components_Page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/Page */ "./src/components/Page.js");
+/* harmony import */ var _src_components_PagePreview__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/components/PagePreview */ "./src/components/PagePreview.js");
+/* harmony import */ var _src_utils_date__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/utils/date */ "./src/utils/date.js");
+/* harmony import */ var _src_utils_content__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/utils/content */ "./src/utils/content.js");
+/* harmony import */ var _content_index_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../content/index.json */ "./content/index.json");
+var _content_index_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/index.json */ "./content/index.json", 1);
+/* harmony import */ var _content_summary_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../content/summary.json */ "./content/summary.json");
+var _content_summary_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../content/summary.json */ "./content/summary.json", 1);
+
 var _jsxFileName = "C:\\Users\\shane\\OneDrive\\Documents\\GitHub\\blog\\pages\\index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
@@ -4997,46 +5000,64 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-function Index(props) {
+var Index = function Index(_ref) {
+  var props = _ref.props;
   return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx(_src_components_Page__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    siteTitle: "".concat(_content_index_json__WEBPACK_IMPORTED_MODULE_6__.siteTitle, " - Index"),
+    heroTitle: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.siteTitle,
+    description: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.description,
+    stylesheets: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.stylesheets,
+    topLinks: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.topLinks,
+    backgroundClass: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.backgroundClass,
+    body: Body({
+      summaryJson: _content_summary_json__WEBPACK_IMPORTED_MODULE_7__
+    }),
+    copyright: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.copyright,
+    siteId: _content_index_json__WEBPACK_IMPORTED_MODULE_6__.siteId,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, __jsx(_src_components_Page__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    siteTitle: "".concat(_content_index_json__WEBPACK_IMPORTED_MODULE_5__.siteTitle, " - Index"),
-    heroTitle: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.siteTitle,
-    description: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.description,
-    stylesheets: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.stylesheets,
-    topLinks: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.topLinks,
-    backgroundClass: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.backgroundClass,
-    body: Body({
-      summaryJson: _content_summary_json__WEBPACK_IMPORTED_MODULE_6__
-    }),
-    copyright: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.copyright,
-    siteId: _content_index_json__WEBPACK_IMPORTED_MODULE_5__.siteId,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
   }));
-}
+};
+
+Index.getInitialProps = function _callee(_ref2) {
+  var req;
+  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          req = _ref2.req;
+          return _context.abrupt("return", {});
+
+        case 2:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, null, null, null, Promise);
+};
 
 function Body(props) {
-  var postList = Object(_src_utils_content__WEBPACK_IMPORTED_MODULE_4__["filterPosts"])(props.summaryJson);
+  var postList = Object(_src_utils_content__WEBPACK_IMPORTED_MODULE_5__["filterPosts"])(props.summaryJson);
   return __jsx("div", {
     className: "center mw6 pa3 pa4-ns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }, postList.map(function (article, i) {
-    var href = Object(_src_utils_content__WEBPACK_IMPORTED_MODULE_4__["makeUrl"])(article);
-    var date = Object(_src_utils_date__WEBPACK_IMPORTED_MODULE_3__["formatDate"])(article.date);
-    return __jsx(_src_components_PagePreview__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    var href = Object(_src_utils_content__WEBPACK_IMPORTED_MODULE_5__["makeUrl"])(article);
+    var date = Object(_src_utils_date__WEBPACK_IMPORTED_MODULE_4__["formatDate"])(article.date);
+    return __jsx(_src_components_PagePreview__WEBPACK_IMPORTED_MODULE_3__["default"], {
       title: article.title,
       preview: article.preview,
       date: date,
@@ -5044,7 +5065,7 @@ function Body(props) {
       key: i,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 37
       },
       __self: this
     });
