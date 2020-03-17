@@ -53,16 +53,6 @@
       "sourceBase": "index.md",
       "sourceExt": ".md"
     },
-    "content/posts/2018-11-28-StandingDesk.json": {
-      "title": "Vivo Standing Desk - An Easy DIY Standing Desk",
-      "date": "2018-11-28T00:00:00.000Z",
-      "preview": "While I don't buy into the huge hype behind using a standing desk, I 100% love the standing desk I built using",
-      "dir": "content/posts",
-      "base": "2018-11-28-StandingDesk.json",
-      "ext": ".json",
-      "sourceBase": "2018-11-28-StandingDesk.md",
-      "sourceExt": ".md"
-    },
     "content/posts/2014-6-3-Hello-Jekyll.json": {
       "title": "Hello, Jekyll",
       "date": "2014-06-03T00:00:00.000Z",
@@ -81,6 +71,16 @@
       "base": "2017-5-8-ReactUnityGithubPages.json",
       "ext": ".json",
       "sourceBase": "2017-5-8-ReactUnityGithubPages.md",
+      "sourceExt": ".md"
+    },
+    "content/posts/2018-11-28-StandingDesk.json": {
+      "title": "Vivo Standing Desk - An Easy DIY Standing Desk",
+      "date": "2018-11-28T00:00:00.000Z",
+      "preview": "While I don't buy into the huge hype behind using a standing desk, I 100% love the standing desk I built using",
+      "dir": "content/posts",
+      "base": "2018-11-28-StandingDesk.json",
+      "ext": ".json",
+      "sourceBase": "2018-11-28-StandingDesk.md",
       "sourceExt": ".md"
     }
   },
