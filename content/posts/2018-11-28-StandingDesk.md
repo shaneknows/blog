@@ -16,6 +16,7 @@ While I was at it, I also build a matching shelf to hand in my office.
 Cons
 - Ended up not mattering, but the threads when assembling the desk are fairly easy to strip so be careful assembling the horizontal bar.
 ![Stripped Thread](https://github.com/shaneknows/blog/raw/dev/src/images/stripped.jpg "Stripped Thread")
+
 - Finding a large enough board can be a pain (but that's also part of the fun)
 - Doesn't look flashy, but that's up to the creator to customize away
 
