@@ -29,8 +29,8 @@ function Index(props) {
           border-bottom-color: currentColor;
         }
         
-        pre, {
-          overflow-x:scroll;
+        pre, .content {
+          overflow-x:auto;
         }
 
         code {
@@ -58,13 +58,31 @@ function Index(props) {
   )
 }
 
-function Body(props) {
+function Body(props = {}) {
   return (
     <div className="content center mw9 pa3 pa4-ns">
       <h1 className="mt0 lh-title">{props.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: props.bodyHtml }}></div>
     </div>
   )
+}
+
+Index.getInitialProps = async function (req) {
+  if (req.pathname === '/post') {
+    return import(`../content${
+      req.query.filePath ? req.query.filePath
+        .replace('content', '')
+        .replace('.json', '') : req.query.fullUrl
+    }.json`)
+      .then((d) => {
+        return {
+          pageJson: d.default
+        }
+      }).catch((e) => {
+        console.log(e);
+      });
+  }
+  return {};
 }
 
 export default withRouter(Index)
