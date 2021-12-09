@@ -12,7 +12,7 @@
     "deploy2": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out"
   },
   "dependencies": {
-    "next": "^9.4.4",
+    "next": "^11.1.3",
     "processmd": "^4.5.0",
     "react": "^16.9.0",
     "react-dom": "^16.13.0"
