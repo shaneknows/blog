@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "next": "^12.1.0",
-    "processmd": "^4.5.0",
+    "processmd": "^4.7.0",
     "react": "^16.9.0",
     "react-dom": "^16.13.0"
   },
